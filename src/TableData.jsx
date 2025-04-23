@@ -3,7 +3,7 @@ import {
   Table, TableBody, TableCell, TableContainer,
   TableHead, TableRow, Paper, Box, TextField, TableSortLabel
 } from '@mui/material';
-import useNetwork from './custom-hook/useNetwork,js';
+import useNetwork from './custom-hook/useNetwork.js';
 
 export default function TableData() {
   const { data, isLoading, error } = useNetwork('https://jsonplaceholder.typicode.com/users');
